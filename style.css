@@ -31,7 +31,6 @@ body {
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url("cover_image.JPG");
+    background-color: white;
     background-repeat: no-repeat;
-    background-position: 50% 30%;
 }
