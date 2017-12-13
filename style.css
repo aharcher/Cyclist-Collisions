@@ -1,0 +1,37 @@
+body {
+    background-color:white;
+    font-family: 'Mukta Vaani', Helvetica, sans-serif;
+}
+
+#hello {
+    font-family: 'Caveat Brush', Helvetica, cursive;
+    text-align: left;
+    font-size: 500%;
+}
+
+#wrapper {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#knockout {
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.break {
+    width:90%;
+    height:60px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("cover_image.JPG");
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
