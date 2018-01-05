@@ -67,68 +67,6 @@
         
         <div class= "break"></div>
         
-        <h4>Where to Start?</h4>
-          <p>Out of NYC's 59 Community Districts, the largest number of cyclist injuries occur in __, __, __, __, __.</p>
-        
-        <!-- Google Chart -->
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<div id="chart_div"></div>
-        
-        <script>
-          google.charts.load('current', {
-  packages: ['corechart', 'bar']
-});
-google.charts.setOnLoadCallback(drawAxisTickColors);
-
-function drawAxisTickColors() {
-  var data = google.visualization.arrayToDataTable([
-    ['City', '2010 Population', '2000 Population'],
-    ['New York City, NY', 8175000, 8008000],
-    ['Los Angeles, CA', 3792000, 3694000],
-    ['Chicago, IL', 2695000, 2896000],
-    ['Houston, TX', 2099000, 1953000],
-    ['Philadelphia, PA', 1526000, 1517000]
-  ]);
-
-  var options = {
-    title: 'Population of Largest U.S. Cities',
-    chartArea: {
-      width: '50%'
-    },
-    hAxis: {
-      title: 'Total Population',
-      minValue: 0,
-      textStyle: {
-        bold: true,
-        fontSize: 12,
-        color: '#4d4d4d'
-      },
-      titleTextStyle: {
-        bold: true,
-        fontSize: 18,
-        color: '#4d4d4d'
-      }
-    },
-    vAxis: {
-      title: 'City',
-      textStyle: {
-        fontSize: 14,
-        bold: true,
-        color: '#848484'
-      },
-      titleTextStyle: {
-        fontSize: 14,
-        bold: true,
-        color: '#848484'
-      }
-    }
-  };
-  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-  chart.draw(data, options);
-}
-
-        </script>
-        
         <div class= "break"></div>
         <p><i>Sources: <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95/data">NYC OpenData</a> and the <a href="http://ghostbikes.org/new-york-city">Street Memorial Project</a></i></p>
 
